@@ -2,6 +2,7 @@ const path = require('path')
 const HtmlWebpackPlugin = require("html-webpack-plugin")
 
 module.exports = {
+ devtools: 'eval-source-map',
  entry: path.join(__dirname, "src", "public", "js", "main.js"),
  output: {
   path: path.join(__dirname, "dist"),
