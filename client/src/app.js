@@ -1,8 +1,11 @@
 const express = require("express")
+const path = require("path")
 const app = express()
 
-app.get("/", (req,res) => {
- res.end("App renders...")
+app.use(express.static(path.join(__dirname, "..", "dist")))
+
+app.all("*", (req,res) => {
+ res.sendFile(path.join(__dirname, "..", "dist", "index.html"))
 })
 
 module.exports = app
