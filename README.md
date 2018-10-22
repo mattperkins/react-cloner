@@ -6,13 +6,14 @@
 
 # CLIENT
 ## INSTALL 
-### yarn 
+### yarn
 
 ## RUN 
-### yarn start  
+### npm run server:watch
+### npm run webpack:watch
 
 ## ENDPOINTS 
 ### http://localhost:3000
 
 ## DEPLOY 
-### npm build
+### 
