@@ -1,3 +1,6 @@
+-- eslint
+
+
 ## Add the following where keys apply:
 ### require('dotenv').config()
 
