@@ -1,4 +1,7 @@
 -- eslint
+npm i --save-dev babel-cli
+
+
 
 
 ## Add the following where keys apply:
