@@ -1,8 +1,4 @@
--- eslint
-npm i --save-dev babel-cli
-
-
-
+##### Add eslint
 
 ## Add the following where keys apply:
 ### require('dotenv').config()
