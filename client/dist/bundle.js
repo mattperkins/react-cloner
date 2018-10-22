@@ -247,7 +247,7 @@ eval("const React = __webpack_require__(/*! react */ \"./node_modules/react/inde
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst ReactDOM = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\nconst App = __webpack_require__(/*! ./components/app/App */ \"./src/public/js/components/app/App.js\");\n\nReactDOM.render(React.createElement(App, null), document.getElementById('root'));\n\n//# sourceURL=webpack:///./src/public/js/main.js?");
+eval("const React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst { render } = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\nconst App = __webpack_require__(/*! ./components/app/App */ \"./src/public/js/components/app/App.js\");\n\nrender(React.createElement(App, null), document.getElementById('root'));\n\n//# sourceURL=webpack:///./src/public/js/main.js?");
 
 /***/ })
 
