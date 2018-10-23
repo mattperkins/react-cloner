@@ -4,6 +4,7 @@
   "scripts": {
     "start": "node server.js",
     "server:watch": "npx nodemon ./server.js",
+    "css:watch": "npx postcss --watch ./src/css/index.css -o ./dist/style.css",
     "webpack:watch": "npx webpack --watch"
   },
   "author": "DORMshed",
@@ -20,6 +21,10 @@
     "babel-loader": "7.1.5",
     "babel-preset-react": "6.24.1",
     "html-webpack-plugin":"3.2.0",
+    "nodemon":"1.18.3",
+    "postcss":"7.0.2",
+    "postcss-cli":"6.0.0",
+    "postcss-import":"12.0.0",
     "webpack": "4.16.5",
     "webpack-cli": "3.1.0"
   }
