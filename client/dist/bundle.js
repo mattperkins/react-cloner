@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/public/js/main.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -218,36 +218,36 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 
 /***/ }),
 
-/***/ "./src/public/js/components/app/App.js":
-/*!*********************************************!*\
-  !*** ./src/public/js/components/app/App.js ***!
-  \*********************************************/
+/***/ "./src/components/Header/index.js":
+/*!****************************************!*\
+  !*** ./src/components/Header/index.js ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst Header = __webpack_require__(/*! ../header/Header */ \"./src/public/js/components/header/Header.js\");\n\nmodule.exports = () => {\n  return React.createElement(\n    'div',\n    null,\n    React.createElement(Header, null)\n  );\n};\n\n//# sourceURL=webpack:///./src/public/js/components/app/App.js?");
+eval("const React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nmodule.exports = () => {\n  return React.createElement(\n    'nav',\n    null,\n    'Header'\n  );\n};\n\n//# sourceURL=webpack:///./src/components/Header/index.js?");
 
 /***/ }),
 
-/***/ "./src/public/js/components/header/Header.js":
-/*!***************************************************!*\
-  !*** ./src/public/js/components/header/Header.js ***!
-  \***************************************************/
+/***/ "./src/components/Layout/index.js":
+/*!****************************************!*\
+  !*** ./src/components/Layout/index.js ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nmodule.exports = () => {\n  return React.createElement(\n    'nav',\n    null,\n    'Header'\n  );\n};\n\n//# sourceURL=webpack:///./src/public/js/components/header/Header.js?");
+eval("const React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst Header = __webpack_require__(/*! ../Header */ \"./src/components/Header/index.js\");\n\nmodule.exports = () => {\n  return React.createElement(\n    'div',\n    null,\n    React.createElement(Header, null)\n  );\n};\n\n//# sourceURL=webpack:///./src/components/Layout/index.js?");
 
 /***/ }),
 
-/***/ "./src/public/js/main.js":
-/*!*******************************!*\
-  !*** ./src/public/js/main.js ***!
-  \*******************************/
+/***/ "./src/index.js":
+/*!**********************!*\
+  !*** ./src/index.js ***!
+  \**********************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst { render } = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\nconst App = __webpack_require__(/*! ./components/app/App */ \"./src/public/js/components/app/App.js\");\n\nrender(React.createElement(App, null), document.getElementById('root'));\n\n//# sourceURL=webpack:///./src/public/js/main.js?");
+eval("const React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\nconst { render } = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\nconst Layout = __webpack_require__(/*! ./components/Layout */ \"./src/components/Layout/index.js\");\n\nrender(React.createElement(Layout, null), document.getElementById('root'));\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 
