@@ -225,7 +225,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("const React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nmodule.exports = () => {\n  return React.createElement(\n    \"div\",\n    { className: \"header\" },\n    React.createElement(\n      \"p\",\n      { className: \"header__logo\" },\n      \"DORMshed\"\n    )\n  );\n};\n\n//# sourceURL=webpack:///./src/components/Header/index.js?");
+eval("const React = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nmodule.exports = () => {\n  return React.createElement(\n    \"div\",\n    { className: \"header\" },\n    React.createElement(\n      \"p\",\n      { className: \"header__logo\" },\n      \"DORMshed!!\"\n    )\n  );\n};\n\n//# sourceURL=webpack:///./src/components/Header/index.js?");
 
 /***/ }),
 
