@@ -8,9 +8,6 @@
 ### yarn
 
 ## RUN 
-### npm run server:watch
-### npm run css:watch
-### npm run webpack:watch
 
 ## ENDPOINTS 
 ### http://localhost:3000
