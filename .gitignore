@@ -9,4 +9,3 @@ keys.js
 config
 .vscode/launch.json
 notes.js
-./dist/.hot/*
