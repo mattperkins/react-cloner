@@ -5,9 +5,7 @@
     "start": "node server.js",
     "server:watch": "npx nodemon ./server.js",
     "css:watch": "npx postcss --watch ./src/css/index.css -o ./dist/style.css",
-    "webpack:watch": "npx webpack --watch",
-
-    "build": "webpack --mode production"
+    "webpack:watch": "npx webpack --watch"
   },
   "author": "DORMshed",
   "license": "ISC",
