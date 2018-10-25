@@ -7,7 +7,6 @@
     "css:watch": "npx postcss --watch ./src/css/index.css -o ./dist/style.css",
     "webpack:watch": "npx webpack --watch",
 
-    "hot": "webpack-dev-server --mode development --hot",
     "build": "webpack --mode production"
   },
   "author": "DORMshed",
@@ -29,7 +28,6 @@
     "postcss-cli": "6.0.0",
     "postcss-import": "12.0.0",
     "webpack": "4.16.5",
-    "webpack-cli": "3.1.0",
-    "webpack-dev-server": "3.1.10"
+    "webpack-cli": "3.1.0"
   }
 }
