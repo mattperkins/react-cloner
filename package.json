@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": ""
+    "start": "babel-node server/index.js"
   },
-  "author": "DORMshed" ,
-  "license": "ISC"
+  "author": "DORMshed",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
 }
