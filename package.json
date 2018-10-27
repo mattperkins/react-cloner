@@ -7,5 +7,9 @@
     "start": ""
   },
   "author": "DORMshed",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
 }
