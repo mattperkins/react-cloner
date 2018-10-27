@@ -1,0 +1,11 @@
+{
+  "name": "react-cloner",
+  "version": "1.0.0",
+  "description": "react client",
+  "main": "index.js",
+  "scripts": {
+    "start": ""
+  },
+  "author": "DORMshed",
+  "license": "ISC"
+}
