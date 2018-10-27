@@ -7,15 +7,16 @@ export default {
  },
  mode: 'development',
  module: {
-  loaders: [
+  rules: [
    {
     test: /\.js$/,
+    exclude: /node_modules/,
     include: path.join(__dirname, 'client'),
-    loaders: ['babel']
+    loaders: ['babel-loader']
    }
   ]
  },
  resolve: {
-  extensions: ['', '.js']
+  extensions: ['.js']
  }
 }
