@@ -2,11 +2,16 @@
 ### yarn
 
 ## RUN 
-### yarn dev
 ### yarn start
 
 ## ENDPOINTS 
 ### http://localhost:3000
 
-## DEPLOY 
+## TEST / STANDARD FORMAT
+### yarn test
+
+## BUILD (DEVELOPMENT) 
+### yarn dev
+
+## DEPLOY (PRODUCTION BUILD)
 ### yarn build 
