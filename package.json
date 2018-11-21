@@ -7,7 +7,7 @@
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --port 3000 --compress --mode development",
-    "dev": "webpack --mode development --progress",
+    "dev-build": "webpack --mode development --progress",
     "build": "webpack --mode production --progress",
     "test": "standard && node test.js"
   },
