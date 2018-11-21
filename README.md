@@ -10,8 +10,8 @@
 ## TEST / STANDARD FORMAT
 ### yarn test
 
-## BUILD (DEVELOPMENT) 
-### yarn dev
+## BUILD (DEVELOPMENT = UNCOMPRESSED BUILD) 
+### yarn dev-build 
 
 ## DEPLOY (PRODUCTION BUILD)
 ### yarn build 
