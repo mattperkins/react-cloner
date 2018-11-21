@@ -10,3 +10,4 @@ config
 .vscode/launch.json
 notes.js
 dist/
+build/
