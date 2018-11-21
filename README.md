@@ -1,6 +1,3 @@
-## Add the following where keys apply:
-### require('dotenv').config()
-
 ## INSTALL 
 ### yarn
 
