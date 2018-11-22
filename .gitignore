@@ -11,3 +11,4 @@ config
 notes.js
 dist/
 build/
+now.json
