@@ -6,7 +6,7 @@
   "license": "ISC",
   "main": "src/index.js",
   "scripts": {
-    "start": "webpack-dev-server --port 3001 --compress --mode development",
+    "start": "webpack-dev-server --port 3002 --compress --mode development",
     "test": "standard && node test.js",
     "dev-build": "webpack --mode development --progress",
     "build": "webpack --mode production --progress",
