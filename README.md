@@ -5,7 +5,7 @@
 ### yarn start
 
 ## ENDPOINTS 
-### http://localhost:3001
+### http://localhost:3002
 
 ## TEST / STANDARD FORMAT
 ### yarn test
